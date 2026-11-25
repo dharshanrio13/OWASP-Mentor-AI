@@ -1,0 +1,149 @@
+{
+  "official_list_verified": false,
+  "notice": "PLACEHOLDERS ONLY. The organizers' 13 requirements have not been supplied yet. These entries are not the official list, are disabled, and always return NOT_VERIFIED. Replace them with the official requirements and enable checks one by one.",
+  "rules": [
+    {
+      "id": "OWASP-01",
+      "title": "Placeholder requirement 01 (official list pending)",
+      "description": "Placeholder for organizer requirement 01. The official wording has not been supplied, so nothing is checked.",
+      "severity": "INFO",
+      "enabled": false,
+      "check_type": "manual",
+      "extensions": [],
+      "pattern": "",
+      "recommendation": "Replace this placeholder with the official requirement and a safe check."
+    },
+    {
+      "id": "OWASP-02",
+      "title": "Placeholder requirement 02 (official list pending)",
+      "description": "Placeholder for organizer requirement 02. The official wording has not been supplied, so nothing is checked.",
+      "severity": "INFO",
+      "enabled": false,
+      "check_type": "manual",
+      "extensions": [],
+      "pattern": "",
+      "recommendation": "Replace this placeholder with the official requirement and a safe check."
+    },
+    {
+      "id": "OWASP-03",
+      "title": "Placeholder requirement 03 (official list pending)",
+      "description": "Placeholder for organizer requirement 03. The official wording has not been supplied, so nothing is checked.",
+      "severity": "INFO",
+      "enabled": false,
+      "check_type": "manual",
+      "extensions": [],
+      "pattern": "",
+      "recommendation": "Replace this placeholder with the official requirement and a safe check."
+    },
+    {
+      "id": "OWASP-04",
+      "title": "Placeholder requirement 04 (official list pending)",
+      "description": "Placeholder for organizer requirement 04. The official wording has not been supplied, so nothing is checked.",
+      "severity": "INFO",
+      "enabled": false,
+      "check_type": "manual",
+      "extensions": [],
+      "pattern": "",
+      "recommendation": "Replace this placeholder with the official requirement and a safe check."
+    },
+    {
+      "id": "OWASP-05",
+      "title": "Placeholder requirement 05 (official list pending)",
+      "description": "Placeholder for organizer requirement 05. The official wording has not been supplied, so nothing is checked.",
+      "severity": "INFO",
+      "enabled": false,
+      "check_type": "manual",
+      "extensions": [],
+      "pattern": "",
+      "recommendation": "Replace this placeholder with the official requirement and a safe check."
+    },
+    {
+      "id": "OWASP-06",
+      "title": "Placeholder requirement 06 (official list pending)",
+      "description": "Placeholder for organizer requirement 06. The official wording has not been supplied, so nothing is checked.",
+      "severity": "INFO",
+      "enabled": false,
+      "check_type": "manual",
+      "extensions": [],
+      "pattern": "",
+      "recommendation": "Replace this placeholder with the official requirement and a safe check."
+    },
+    {
+      "id": "OWASP-07",
+      "title": "Placeholder requirement 07 (official list pending)",
+      "description": "Placeholder for organizer requirement 07. The official wording has not been supplied, so nothing is checked.",
+      "severity": "INFO",
+      "enabled": false,
+      "check_type": "manual",
+      "extensions": [],
+      "pattern": "",
+      "recommendation": "Replace this placeholder with the official requirement and a safe check."
+    },
+    {
+      "id": "OWASP-08",
+      "title": "Placeholder requirement 08 (official list pending)",
+      "description": "Placeholder for organizer requirement 08. The official wording has not been supplied, so nothing is checked.",
+      "severity": "INFO",
+      "enabled": false,
+      "check_type": "manual",
+      "extensions": [],
+      "pattern": "",
+      "recommendation": "Replace this placeholder with the official requirement and a safe check."
+    },
+    {
+      "id": "OWASP-09",
+      "title": "Placeholder requirement 09 (official list pending)",
+      "description": "Placeholder for organizer requirement 09. The official wording has not been supplied, so nothing is checked.",
+      "severity": "INFO",
+      "enabled": false,
+      "check_type": "manual",
+      "extensions": [],
+      "pattern": "",
+      "recommendation": "Replace this placeholder with the official requirement and a safe check."
+    },
+    {
+      "id": "OWASP-10",
+      "title": "Placeholder requirement 10 (official list pending)",
+      "description": "Placeholder for organizer requirement 10. The official wording has not been supplied, so nothing is checked.",
+      "severity": "INFO",
+      "enabled": false,
+      "check_type": "manual",
+      "extensions": [],
+      "pattern": "",
+      "recommendation": "Replace this placeholder with the official requirement and a safe check."
+    },
+    {
+      "id": "OWASP-11",
+      "title": "Placeholder requirement 11 (official list pending)",
+      "description": "Placeholder for organizer requirement 11. The official wording has not been supplied, so nothing is checked.",
+      "severity": "INFO",
+      "enabled": false,
+      "check_type": "manual",
+      "extensions": [],
+      "pattern": "",
+      "recommendation": "Replace this placeholder with the official requirement and a safe check."
+    },
+    {
+      "id": "OWASP-12",
+      "title": "Placeholder requirement 12 (official list pending)",
+      "description": "Placeholder for organizer requirement 12. The official wording has not been supplied, so nothing is checked.",
+      "severity": "INFO",
+      "enabled": false,
+      "check_type": "manual",
+      "extensions": [],
+      "pattern": "",
+      "recommendation": "Replace this placeholder with the official requirement and a safe check."
+    },
+    {
+      "id": "OWASP-13",
+      "title": "Placeholder requirement 13 (official list pending)",
+      "description": "Placeholder for organizer requirement 13. The official wording has not been supplied, so nothing is checked.",
+      "severity": "INFO",
+      "enabled": false,
+      "check_type": "manual",
+      "extensions": [],
+      "pattern": "",
+      "recommendation": "Replace this placeholder with the official requirement and a safe check."
+    }
+  ]
+}
