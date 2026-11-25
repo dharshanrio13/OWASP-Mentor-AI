@@ -1,149 +1,149 @@
 {
   "official_list_verified": false,
-  "notice": "PLACEHOLDERS ONLY. The organizers' 13 requirements have not been supplied yet. These entries are not the official list, are disabled, and always return NOT_VERIFIED. Replace them with the official requirements and enable checks one by one.",
+  "notice": "CUSTOM 13-MODULE ASSESSMENT PROFILE. The titles and descriptions below use the 13 modules supplied by the project team. This is not the official OWASP Top 10 list: modules 11-13 are supplementary assessment areas. Entries are enabled as manual-review items only; they do not perform automated detection. Implement and validate a check before treating any module as automatically verified.",
   "rules": [
     {
       "id": "OWASP-01",
-      "title": "Placeholder requirement 01 (official list pending)",
-      "description": "Placeholder for organizer requirement 01. The official wording has not been supplied, so nothing is checked.",
+      "title": "Broken Access Control",
+      "description": "Checks whether users can access only the resources and actions permitted by their roles and ownership. Review authorization on every protected endpoint, object-level access, privilege boundaries, and default-deny behavior.",
       "severity": "INFO",
-      "enabled": false,
+      "enabled": true,
       "check_type": "manual",
       "extensions": [],
       "pattern": "",
-      "recommendation": "Replace this placeholder with the official requirement and a safe check."
+      "recommendation": "Enforce authorization on the server for every request. Apply least privilege, verify resource ownership, deny by default, and test horizontal and vertical privilege boundaries."
     },
     {
       "id": "OWASP-02",
-      "title": "Placeholder requirement 02 (official list pending)",
-      "description": "Placeholder for organizer requirement 02. The official wording has not been supplied, so nothing is checked.",
+      "title": "Security Misconfiguration",
+      "description": "Reviews application, server, framework, cloud, and deployment settings for unsafe defaults, unnecessary services, exposed debug features, verbose errors, and unintended public access.",
       "severity": "INFO",
-      "enabled": false,
+      "enabled": true,
       "check_type": "manual",
       "extensions": [],
       "pattern": "",
-      "recommendation": "Replace this placeholder with the official requirement and a safe check."
+      "recommendation": "Use secure configuration baselines, disable debug mode in production, remove unused components, restrict administrative interfaces, and review deployment settings regularly."
     },
     {
       "id": "OWASP-03",
-      "title": "Placeholder requirement 03 (official list pending)",
-      "description": "Placeholder for organizer requirement 03. The official wording has not been supplied, so nothing is checked.",
+      "title": "Software Supply Chain Security",
+      "description": "Reviews third-party packages, build tools, container images, and update processes for known vulnerabilities, untrusted sources, abandoned dependencies, and integrity risks.",
       "severity": "INFO",
-      "enabled": false,
+      "enabled": true,
       "check_type": "manual",
       "extensions": [],
       "pattern": "",
-      "recommendation": "Replace this placeholder with the official requirement and a safe check."
+      "recommendation": "Maintain an inventory of dependencies, pin and verify versions, scan for known vulnerabilities, remove unused packages, and obtain components from trusted sources."
     },
     {
       "id": "OWASP-04",
-      "title": "Placeholder requirement 04 (official list pending)",
-      "description": "Placeholder for organizer requirement 04. The official wording has not been supplied, so nothing is checked.",
+      "title": "Cryptographic Failures",
+      "description": "Reviews how sensitive data is stored, transmitted, and protected, including password storage, encryption choices, key handling, and accidental exposure of secrets.",
       "severity": "INFO",
-      "enabled": false,
+      "enabled": true,
       "check_type": "manual",
       "extensions": [],
       "pattern": "",
-      "recommendation": "Replace this placeholder with the official requirement and a safe check."
+      "recommendation": "Use established, modern cryptographic libraries and protocols, hash passwords with a purpose-built password hashing algorithm, protect keys and secrets, and avoid storing unnecessary sensitive data."
     },
     {
       "id": "OWASP-05",
-      "title": "Placeholder requirement 05 (official list pending)",
-      "description": "Placeholder for organizer requirement 05. The official wording has not been supplied, so nothing is checked.",
+      "title": "Injection",
+      "description": "Reviews whether untrusted input can be interpreted as SQL, operating-system commands, templates, or other executable expressions.",
       "severity": "INFO",
-      "enabled": false,
+      "enabled": true,
       "check_type": "manual",
       "extensions": [],
       "pattern": "",
-      "recommendation": "Replace this placeholder with the official requirement and a safe check."
+      "recommendation": "Use parameterized database queries and safe APIs, avoid constructing commands from user input, validate input by context, and encode output appropriately."
     },
     {
       "id": "OWASP-06",
-      "title": "Placeholder requirement 06 (official list pending)",
-      "description": "Placeholder for organizer requirement 06. The official wording has not been supplied, so nothing is checked.",
+      "title": "Insecure Design",
+      "description": "Reviews application architecture and business workflows for missing security controls, unsafe trust assumptions, abuse cases, and design-level weaknesses.",
       "severity": "INFO",
-      "enabled": false,
+      "enabled": true,
       "check_type": "manual",
       "extensions": [],
       "pattern": "",
-      "recommendation": "Replace this placeholder with the official requirement and a safe check."
+      "recommendation": "Perform threat modeling, define security requirements, identify abuse cases, apply secure design patterns, and include security review in design changes."
     },
     {
       "id": "OWASP-07",
-      "title": "Placeholder requirement 07 (official list pending)",
-      "description": "Placeholder for organizer requirement 07. The official wording has not been supplied, so nothing is checked.",
+      "title": "Authentication Failures",
+      "description": "Reviews identity verification and session handling, including password policy, account recovery, brute-force protections, session expiration, and multi-factor authentication where appropriate.",
       "severity": "INFO",
-      "enabled": false,
+      "enabled": true,
       "check_type": "manual",
       "extensions": [],
       "pattern": "",
-      "recommendation": "Replace this placeholder with the official requirement and a safe check."
+      "recommendation": "Use a trusted authentication framework, protect account recovery, rate-limit authentication attempts, use secure session handling, and support multi-factor authentication for sensitive accounts."
     },
     {
       "id": "OWASP-08",
-      "title": "Placeholder requirement 08 (official list pending)",
-      "description": "Placeholder for organizer requirement 08. The official wording has not been supplied, so nothing is checked.",
+      "title": "Software and Data Integrity",
+      "description": "Reviews whether software updates, build artifacts, serialized data, and other trusted inputs can be modified or consumed without integrity verification.",
       "severity": "INFO",
-      "enabled": false,
+      "enabled": true,
       "check_type": "manual",
       "extensions": [],
       "pattern": "",
-      "recommendation": "Replace this placeholder with the official requirement and a safe check."
+      "recommendation": "Verify update and artifact integrity, protect build and deployment pipelines, validate data before trusting it, and avoid deserializing untrusted data unsafely."
     },
     {
       "id": "OWASP-09",
-      "title": "Placeholder requirement 09 (official list pending)",
-      "description": "Placeholder for organizer requirement 09. The official wording has not been supplied, so nothing is checked.",
+      "title": "Security Logging and Alerting",
+      "description": "Reviews whether security-relevant events are recorded, protected, monitored, and escalated without exposing passwords, tokens, or other sensitive information.",
       "severity": "INFO",
-      "enabled": false,
+      "enabled": true,
       "check_type": "manual",
       "extensions": [],
       "pattern": "",
-      "recommendation": "Replace this placeholder with the official requirement and a safe check."
+      "recommendation": "Log authentication and authorization events, validation failures, and important administrative actions; protect logs from tampering; redact secrets; and configure useful alerts."
     },
     {
       "id": "OWASP-10",
-      "title": "Placeholder requirement 10 (official list pending)",
-      "description": "Placeholder for organizer requirement 10. The official wording has not been supplied, so nothing is checked.",
+      "title": "Exception Handling",
+      "description": "Reviews how the application handles unexpected conditions, failed dependencies, invalid states, and runtime errors, including whether errors disclose internal details.",
       "severity": "INFO",
-      "enabled": false,
+      "enabled": true,
       "check_type": "manual",
       "extensions": [],
       "pattern": "",
-      "recommendation": "Replace this placeholder with the official requirement and a safe check."
+      "recommendation": "Handle expected errors explicitly, return safe and consistent error responses, keep detailed diagnostics in protected server logs, and avoid exposing stack traces or secrets to clients."
     },
     {
       "id": "OWASP-11",
-      "title": "Placeholder requirement 11 (official list pending)",
-      "description": "Placeholder for organizer requirement 11. The official wording has not been supplied, so nothing is checked.",
+      "title": "API Security",
+      "description": "Reviews API-specific protections such as endpoint authorization, object-level access, rate limits, resource consumption, method restrictions, and exposure of unnecessary data.",
       "severity": "INFO",
-      "enabled": false,
+      "enabled": true,
       "check_type": "manual",
       "extensions": [],
       "pattern": "",
-      "recommendation": "Replace this placeholder with the official requirement and a safe check."
+      "recommendation": "Apply authentication and authorization to every relevant endpoint, enforce object-level permissions, limit request rates and payload sizes, validate methods and content types, and return only required fields."
     },
     {
       "id": "OWASP-12",
-      "title": "Placeholder requirement 12 (official list pending)",
-      "description": "Placeholder for organizer requirement 12. The official wording has not been supplied, so nothing is checked.",
+      "title": "Input Validation",
+      "description": "Reviews whether data from clients and other untrusted sources is validated for type, format, length, range, and allowed values before processing.",
       "severity": "INFO",
-      "enabled": false,
+      "enabled": true,
       "check_type": "manual",
       "extensions": [],
       "pattern": "",
-      "recommendation": "Replace this placeholder with the official requirement and a safe check."
+      "recommendation": "Validate inputs at the application boundary with explicit schemas and allowlists where practical. Enforce size and range limits, reject malformed data, and do not rely on client-side validation alone."
     },
     {
       "id": "OWASP-13",
-      "title": "Placeholder requirement 13 (official list pending)",
-      "description": "Placeholder for organizer requirement 13. The official wording has not been supplied, so nothing is checked.",
+      "title": "Security Headers and Browser Protection",
+      "description": "Reviews browser-facing response protections, including content security policy, transport security, clickjacking defenses, MIME sniffing protections, and cookie security attributes.",
       "severity": "INFO",
-      "enabled": false,
+      "enabled": true,
       "check_type": "manual",
       "extensions": [],
       "pattern": "",
-      "recommendation": "Replace this placeholder with the official requirement and a safe check."
+      "recommendation": "Configure appropriate security headers for the deployment, use HTTPS, set secure cookie attributes, and test the policy against the application's actual browser features and resource requirements."
     }
   ]
 }
